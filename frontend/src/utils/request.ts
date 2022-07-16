@@ -1,0 +1,3 @@
+export const BASE_URL = import.meta.env.VITE_BACKEND_URL ?? "http://localhost:8080";
+
+/* ?? é um operador de coalescência nula. Ele faz o seguinte: por padrão, ele diz que a variável deverá receber o valor que está à ESQUERDA dele, que no caso é  import.meta.env.VITE_BACKEND_URL. Se esse valor for nulo, ele diz que a variável const BASE_URL deverá receber o que está à DIREITA do operador, que no caso é "http://localhost:8080" */
